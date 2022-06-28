@@ -1,0 +1,9 @@
+{
+  "controller": "org.odinallfather.test.TestInventoryController",
+  "type": "list",
+  "size": 56,
+  "list-range": "1:1-5:9",
+  "next-page": "9:6",
+  "back-page": "1:6"
+
+}

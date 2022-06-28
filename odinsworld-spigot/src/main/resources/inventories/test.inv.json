@@ -1,0 +1,33 @@
+{
+  "controller": "org.odinallfather.test.TestInventoryController",
+  "size": 27,
+  "title": "§bTest",
+  "settings": {
+    "can-move-items": false,
+    "onOpenEvent": false,
+    "onCloseEvent": false
+  },
+  "layout": {
+    "0:9": {
+      "item": "filler",
+      "action": "onClickFiller"
+    },
+    "10:14": {
+      "item": "diamond",
+      "action": "onClickDiamond"
+    },
+    "15": {
+      "item": "abc",
+      "action": "onClickAbc"
+    },
+    "16": {
+      "item": "diamond",
+      "action": "onClickDiamond"
+    },
+    "17:27": {
+      "item": "filler",
+      "action": "onClickFiller2"
+    }
+  }
+
+}

@@ -1,0 +1,47 @@
+{
+  "controller": "org.odinallfather.test.TestCommandController",
+  "name": "owc",
+  "params": {
+    "0": "onParam0",
+    "1": {
+      "te": "onParam1Te",
+      "lel": "onParam1Lel"
+    },
+    "2": {
+      "abc": {
+        "parent": "te",
+        "method": "onParam2Abc"
+      },
+      "def": {
+        "parent": "lel",
+        "method": "onParam2Def"
+      }
+    },
+    "3": {
+      "$STR:AName": {
+        "parent": "def",
+        "method": "onParam3StrParam"
+      },
+      "bar": {
+        "parent": "def",
+        "method": "onParam3Bar"
+      }
+    },
+    "4": {
+      "foo": {
+        "parent": "bar",
+        "method": "onParam4Foo"
+      },
+      "foobar": {
+        "parent": "AName",
+        "method": "onParam4FooBar"
+      }
+    },
+    "5": {
+      "anotherbar": {
+        "parent": "foobar",
+        "method": "onParam5AnotherFoobar"
+      }
+    }
+  }
+}
